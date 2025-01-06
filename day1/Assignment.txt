@@ -1,0 +1,128 @@
+Here is the modified and improved answer for clarity and correctness:
+
+
+
+Data Types
+
+Data types are used to define the type of data a variable can hold. They specify the operations that can be performed on the data.  
+
+
+1. Primitive Data Types 
+Primitive data types are the basic building blocks of data representation.  
+
+- Key Characteristics:  
+  - Immutable (cannot be changed after creation).  
+  - Can store a single value.  
+
+Examples of Primitive Data Types:
+
+1. Number  
+   Represents numeric values like integers, floats, and exponential values.  
+   let z = 2;
+   console.log(z); // Output: 2
+   
+
+2. String  
+   Represents a sequence of characters, enclosed in single quotes (`'`), double quotes (`"`), or backticks (\``).  
+   
+   let userName = "Sanjay";
+   console.log(userName); // Output: Akshay
+   
+
+3. Boolean
+   Represents a logical value: either `true` or `false`.  
+   
+   let isStudent = true;
+   console.log(isStudent); // Output: true
+   
+
+4. Undefined 
+   A variable that has been declared but not assigned any value.  
+   
+   let a;
+   console.log(a); // Output: undefined
+   
+
+5. Null
+   Represents the intentional absence of any object value or an empty value.  
+   
+   let b = null;
+   console.log(b); // Output: null
+   
+
+6. Symbol
+   Represents a unique and immutable value, commonly used as object property keys.  
+   
+   let sym = Symbol("unique");
+   console.log(sym); // Output: Symbol(unique)
+   
+
+7. BigInt
+   Represents integers larger than the limit of the `Number` type.  
+   
+   let bigNumber = 123456789012345678901234567890n;
+   console.log(bigNumber); // Output: 123456789012345678901234567890n
+   
+
+
+
+2. Non-Primitive Data Types
+Non-primitive data types are more complex and can hold multiple values or entities.  
+
+- Key Characteristics:  
+  - Mutable (values can be changed).  
+  - Can store collections or complex entities.  
+
+Examples of Non-Primitive Data Types: 
+
+1. Object
+   A collection of key-value pairs.  
+   
+   let person = {
+       name: "Sanjay",
+       age: 20
+   };
+   console.log(person); // Output: { name: "Sanjay", age: 20 }
+   
+
+2. Array
+   Represents an ordered collection of elements.  
+   
+   let cars = ["Mercedes Benz", "Ferrari", "Audi"];
+   console.log(cars); // Output: ["Mercedes Benz", "Ferrari", "Audi"]
+   
+
+3. Function  
+   A block of reusable code designed to perform a particular task.  
+   
+   function greet(name) {
+       return `Hi, ${name}!`;
+   }
+   console.log(greet("Sanjay")); // Output: Hi, Sanjay!
+   
+
+4. Class
+   A blueprint for creating objects with specific properties and methods.  
+
+   class Car {
+       constructor(brand) {
+           this.brand = brand;
+       }
+   }
+   let myCar = new Car("Tesla");
+   console.log(myCar); // Output: Car { brand: "Tesla" }
+   
+
+5. Map 
+   A collection of key-value pairs where keys can be of any type.  
+   
+   let map = new Map();
+   map.set("name", "Sanjay");
+   console.log(map.get("name")); // Output: Sanjay
+
+6. Set  
+   A collection of unique values.  
+   
+   let set = new Set([1, 2, 3, 3]);
+   console.log(set); // Output: Set(3) { 1, 2, 3 }
+   

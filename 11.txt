@@ -1,0 +1,21 @@
+What is javascript ?
+  it is a object based programming language use to convert static page into dynamic page...
+
+Data Types
+--<Primitive Data Types>--
+-->number
+-->string
+-->Boolean
+-->null
+-->big int
+-->undefined
+
+--<non-primitive Data Types>--
+
+-->class
+-->objects
+-->functions
+-->array
+-->map
+-->set
+   
