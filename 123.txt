@@ -1,0 +1,4 @@
+Take array of objects where each object contains empid, empName, empcompany, empsalary, empaddress
+where empadress further contains an object which includes two properties such as empcity, area.
+display all this employee datas on the uI through java script.
+
