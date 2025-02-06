@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+}
+.main {
+  height: 20%;
+  background-color: rgb(5, 226, 200);
+}
+.navbar {
+  height: 20%;
+  background-color: green;
+}
+.side {
+  display: flex; /* Makes sidebars appear side by side */
+  height: 40%;
+  width: 100%;
+}
+.side1 {
+  height: 40%;
+  width: 50vw;
+  background-color: bisque;
+  display: flex;
+  flex-basis: 70%;
+}
+.side2 {
+  height: 40%;
+  width: 50vw;
+  background-color: blue;
+  display: flex;
+}
+.footer {
+  height: 20%;
+  width: 100vw;
+  background-color: rgb(51, 246, 2);
+}
