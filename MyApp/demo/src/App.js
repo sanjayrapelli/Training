@@ -59,15 +59,47 @@
 // }
 // export default App
 
-import React from "react";
-import CBCStateEx from "./stateexample/CBCStateEx";
+// import React from "react";
+// import CBCStateEx from "./stateexample/CBCStateEx";
 
+// const App = () => {
+//   return (
+//     <div>
+//       <CBCStateEx />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+// import React from 'react'
+// import CBCStateEg from './stateexamples/CBCStateEg'
+// import FBCStateEg from './stateexamples/FBCStateEg'
+// import FunctionalComp from './components/FunctionalComp'
+// import ClassComponent from './components/ClassComponent'
+// import Form from './components/Form'
+
+// const App = () => {
+//   return (
+//     <div>
+//       {/* <CBCStateEg/> */}
+//       {/* <FBCStateEg/> */}
+//       {/* <FunctionalComp clgname='MRU' location='HYD' apply={true} /> */}
+//       {/* <ClassComponent/> */}
+//       <Form/>
+//     </div>
+//     )
+// }
+
+// export default App
+
+import {React} from "react";
+import UseEffectEx from "./Components/UseEffectEx";
 const App = () => {
-  return (
+  return(
     <div>
-      <CBCStateEx />
+      <UseEffectEx/>
     </div>
-  );
-};
-
+  )
+}
 export default App;
